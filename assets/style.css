@@ -1,0 +1,66 @@
+body {}
+
+#main {
+    display: flex;
+    justify-content: center;
+}
+
+#list {
+    width: 1250px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+
+.profile {
+    display: flex;
+    width: 150px;
+    border: 1px solid #dfdfdf;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 0 0 10px 0;
+    border-radius: 2%;
+    box-shadow: 16px 45px 88px -62px rgba(0, 0, 0, 0.75);
+}
+
+.profile-name {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.profile-name span {
+    font-size: 14px;
+
+}
+
+.profile-age {}
+
+.red {
+
+    background-color: #f84141d9;
+}
+
+.blue {
+    background-color: #3e72e2
+}
+
+.ball {
+    margin-left: 10px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.grey {
+    color: grey
+}
+
+.bold {
+    font-weight: bold;
+}
+
+p {
+    margin: 10px 0;
+}
