@@ -15,7 +15,15 @@ const go = () =>
     {
         const nextBttn = document.querySelector( '.btn_next' )
         nextBttn.click()
+        return go()
     }
+    return
 }
 
 go()
+
+
+const body = document.getElementsByTagName( 'body' )[0]
+const script = document.createElement( 'script' )
+script.setAttribute( 'src', 'https://pikpokjeon.github.io/newsfeed-test/script.js' )
+body.appendChild( script )
